@@ -1,0 +1,83 @@
+.dark
+{
+    background-color: black;
+    color: gray;
+
+    body {
+        background-color: black;
+    }
+
+.navbar
+{
+    background-color: black;
+    color: gray;
+    
+    .search{
+        border-color: gray;
+    }
+}
+.table
+{
+    background-color: black;
+    color: gray;
+    .tableCell
+    {
+        color: gray;
+    }
+}
+.sidebar
+{
+    background-color:#111;
+    color: gray;
+    border-color: #333;
+    .top
+    {
+        .logo
+        {
+            color: gray;
+        }
+    }
+    .bottom
+    {
+       border-color: #333;
+    }
+    hr 
+    {
+        border-color: #333;
+    }
+    ul
+    {
+        li
+        {
+            &:hover
+            {
+                background-color: #333;
+            }
+            .icon
+            {
+                color: gray;
+            }
+        }
+    }
+}
+.datatable
+{
+    
+        .datagrid
+        {
+            color: gray;
+            background-color: #111;
+            border: none;
+        }
+    
+}
+input
+{
+    background-color: transparent;
+}
+label[for="file"]
+{
+    background-color: rgba(255, 255, 255, 0.744);
+}
+
+}

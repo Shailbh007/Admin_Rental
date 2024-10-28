@@ -1,0 +1,49 @@
+.featured
+{
+    padding: 10px;
+    background: rgba(173, 216, 230, 0.293);
+    display: flex;
+    flex: 3;
+    box-shadow:2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    border-radius: 0px;
+    .top{
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+         
+        .title
+        {
+            font-size: 15px;
+            font-weight: 300;
+            color: gray;
+            margin: auto;
+        }
+    }
+    .bottom{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;  
+    }
+    
+    .featuredChart
+    {
+         padding: 10px;
+        .title
+        {
+            font-size: 15px;
+            font-weight: 500;
+            color: gray;
+        }
+    }
+    .title
+    {
+        font-size: 15px;
+        font-weight: 500;
+        color: gray;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+}

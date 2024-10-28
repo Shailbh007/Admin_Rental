@@ -1,0 +1,28 @@
+
+.image
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.status
+{
+    padding: 5px;
+    border-radius: 5px;
+    &.Approved
+    {
+        color:blue;
+        background-color: rgba(0, 128, 0, 0.151);
+    }
+    &.Pending
+    {
+        color: goldenrod;
+        background-color: rgba(189, 189, 3, 0.103);
+    }
+    &.Booked
+    {
+        color: green;
+        background-color: rgba(255, 0, 0, 0.151);
+    }
+}

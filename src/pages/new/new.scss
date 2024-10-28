@@ -1,0 +1,100 @@
+.new
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    .newContainer
+    {
+        flex: 6;
+        .top{
+            padding: 10px;
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+            box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+            margin: 20px;
+            h1{
+                font-size: 20px;
+                color: gray;
+                margin: 0;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+           }
+            .bottom
+            {
+                display: flex;
+                justify-content: end;
+                gap: 20px;
+                .left
+                {
+                    flex: 1;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 10px;
+                    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+                    img{
+                        width: 100px;
+                        height: 100px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                    }
+                }
+                .right
+                {
+                    flex: 1;
+                
+                    padding: 10px;
+                    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+                    form{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        flex-wrap: wrap;
+                        gap: 10px;
+                        .formInput
+                        {
+                            width: 60%;
+                            input
+                            {
+                                width: 100%;
+                                padding: 5px;
+                                border: none;
+                                border-bottom: 1px solid gray;
+                                &::placeholder
+                                {
+                                    color: rgba(174, 174, 174, 0.438);
+                                    align-items: center;
+                                }
+                            }
+                            label
+                            {
+                                display: flex;
+                                align-items: center;
+                                gap: 10px;
+                                color: rgb(28, 138, 235);
+                            }
+                        }
+                        button
+                        {
+                            background-color:rgba(0, 128, 128, 0.879);
+                            color: white;
+                            padding: 10px;
+                            width: 100px;
+                            border-radius: 5px;
+                            border: none;
+                            cursor: pointer;
+
+                        &:hover
+                            {
+                                background-color: rgb(0, 128, 128);
+                                transition: all 0.5s ease;
+                            }
+                        }
+                    }
+                }
+        }
+    }
+}
